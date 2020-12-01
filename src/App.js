@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Components/Counter/Counter'
+import TipCalculator from './Components/TipCalculator/TipCalculator';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Tip Calculator Exersise
+      <TipCalculator/>
+
+      {/* Counter Exersise
+      <Counter step={1} min={0} max={20}/>
+      <Counter step={3} min={0} max={20}/>
+      <Counter step={50} min={0} max={100}/> */}
     </div>
   );
 }
